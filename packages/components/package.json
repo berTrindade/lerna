@@ -1,63 +1,38 @@
 {
-  "name": "@bertrindade/components",
-  "version": "0.0.8",
-  "description": "> TODO: description",
-  "author": "Bernardo Trindade de Abreu <bernardo-trindade@hotmail.com>",
-  "homepage": "https://github.com/berTrindade/lerna#readme",
-  "license": "ISC",
-  "main": "lib/components.js",
-  "directories": {
-    "lib": "lib",
-    "test": "__tests__"
-  },
-  "files": [
-    "lib"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/berTrindade/lerna.git"
+  "name": "components",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "4.0.3",
+    "web-vitals": "^1.0.1"
   },
   "scripts": {
-    "test": "echo \"Error: run tests from root\""
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
-  "bugs": {
-    "url": "https://github.com/berTrindade/lerna/issues"
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
   },
-  "gitHead": "91b8bfc08a7db19bcaa48910c96f9a6b91b3650d",
-  "dependencies": {
-    "react": "^17.0.2"
-  },
-  "devDependencies": {
-    "@babel/preset-react": "^7.16.0"
-  },
-  "babel": {
-    "presets": [
-      "react",
-      [
-        "@babel/preset-env",
-        {
-          "targets": {
-            "esmodules": true,
-            "node": "current"
-          }
-        }
-      ],
-      "@babel/preset-typescript",
-      "@babel/preset-react"
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
     ],
-    "plugins": [
-      [
-        "@babel/plugin-proposal-class-properties",
-        {
-          "loose": true
-        }
-      ],
-      [
-        "@babel/plugin-transform-runtime",
-        {
-          "regenerator": true
-        }
-      ]
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
     ]
   }
 }

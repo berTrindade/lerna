@@ -29,5 +29,6 @@
     "@babel/preset-env": "^7.16.4",
     "@babel/preset-react": "^7.16.0",
     "babel-loader": "^8.2.3"
-  }
+  },
+  "gitHead": "99e6a4c4782394b1c2106cb56f3bb347e4820736"
 }

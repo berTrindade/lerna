@@ -1,9 +1,7 @@
-import React from 'react'
+'use strict';
 
-const buttonStyle = {
-    padding: '10px 20px'
-};
+module.exports = components;
 
-const Button = ({ label }) => <button style={buttonStyle}>{label}</button>;
-
-export default Button;
+function components() {
+    // TODO
+}

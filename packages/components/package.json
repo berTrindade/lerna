@@ -1,10 +1,10 @@
 {
   "name": "@bertrindade/components",
-  "version": "1.0.3",
+  "version": "0.0.0",
   "description": "> TODO: description",
   "author": "Bernardo Trindade de Abreu <bernardo-trindade@hotmail.com>",
   "homepage": "https://github.com/berTrindade/lerna#readme",
-  "license": "I                                                                               SC",
+  "license": "ISC",
   "main": "lib/components.js",
   "directories": {
     "lib": "lib",
@@ -17,20 +17,17 @@
     "type": "git",
     "url": "git+https://github.com/berTrindade/lerna.git"
   },
-  "presets": [
-    "@babel/preset-env",
-    "@babel/preset-react"
-  ],
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "bugs": {
     "url": "https://github.com/berTrindade/lerna/issues"
   },
-  "devDependencies": {
+  "dependencies": {
     "@babel/cli": "^7.16.0",
-    "@babel/plugin-syntax-jsx": "^7.16.0",
+    "@babel/core": "^7.16.0",
     "@babel/preset-env": "^7.16.4",
-    "@babel/preset-react": "^7.16.0"
+    "@babel/preset-react": "^7.16.0",
+    "babel-loader": "^8.2.3"
   }
 }

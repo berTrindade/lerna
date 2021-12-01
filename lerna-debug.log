@@ -1,157 +1,19 @@
 0 silly argv {
-0 silly argv   _: [ 'publish' ],
-0 silly argv   'conventional-commits': true,
-0 silly argv   conventionalCommits: true,
-0 silly argv   composed: 'publish',
+0 silly argv   _: [ 'create' ],
 0 silly argv   lernaVersion: '4.0.0',
-0 silly argv   '$0': 'node_modules/.bin/lerna'
+0 silly argv   '$0': 'lerna',
+0 silly argv   name: 'components-ui'
 0 silly argv }
 1 notice cli v4.0.0
 2 verbose rootPath /home/bernardoabreu/Desktop/Aurum/learna
 3 info versioning independent
-4 verbose session af6a5ae7a7a42178
-5 verbose user-agent lerna/4.0.0/node@v12.20.2+x64 (linux)
-6 silly argv {
-6 silly argv   _: [ 'publish' ],
-6 silly argv   'conventional-commits': true,
-6 silly argv   conventionalCommits: true,
-6 silly argv   composed: 'publish',
-6 silly argv   lernaVersion: '4.0.0'
-6 silly argv }
-7 verbose rootPath /home/bernardoabreu/Desktop/Aurum/learna
-8 silly isAnythingCommitted
-9 verbose isAnythingCommitted 1
-10 silly getCurrentBranch
-11 verbose currentBranch master
-12 silly remoteBranchExists
-13 silly isBehindUpstream
-14 silly isBehindUpstream master is behind origin/master by 0 commit(s) and ahead by 0
-15 silly hasTags
-16 verbose hasTags true
-17 silly git-describe.sync "v0.0.2-1-g799e4a6" => {"lastTagName":"v0.0.2","lastVersion":"v0.0.2","refCount":"1","sha":"799e4a6","isDirty":false}
-18 info Looking for changed packages since v0.0.2
-19 silly checking diff packages/components
-20 silly found diff in packages/components/lib/components.js
-20 silly found diff in packages/components/package.json
-21 verbose filtered diff [
-21 verbose filtered diff   'packages/components/lib/components.js',
-21 verbose filtered diff   'packages/components/package.json'
-21 verbose filtered diff ]
-22 silly checking diff packages/selectors
-23 silly no diff found in @bertrindade/selectors
-24 verbose updated @bertrindade/components
-25 verbose git-describe undefined => "v0.0.2-1-g799e4a6"
-26 silly git-describe parsed => {"lastTagName":"v0.0.2","lastVersion":"v0.0.2","refCount":"1","sha":"799e4a6","isDirty":false}
-27 silly independent for @bertrindade/components at /home/bernardoabreu/Desktop/Aurum/learna/packages/components
-28 verbose getChangelogConfig using preset "conventional-changelog-angular"
-29 silly npa Result {
-29 silly npa   type: 'tag',
-29 silly npa   registry: true,
-29 silly npa   where: undefined,
-29 silly npa   raw: 'conventional-changelog-angular',
-29 silly npa   name: 'conventional-changelog-angular',
-29 silly npa   escapedName: 'conventional-changelog-angular',
-29 silly npa   scope: undefined,
-29 silly npa   rawSpec: '',
-29 silly npa   saveSpec: null,
-29 silly npa   fetchSpec: 'latest',
-29 silly npa   gitRange: undefined,
-29 silly npa   gitCommittish: undefined,
-29 silly npa   hosted: undefined
-29 silly npa }
-30 verbose getChangelogConfig Attempting to resolve preset "conventional-changelog-angular"
-31 info getChangelogConfig Successfully resolved preset "conventional-changelog-angular"
-32 verbose independent increment 0.0.2 by patch
-33 info execute Skipping releases
-34 silly lifecycle No script for "preversion" in "root", continuing
-35 silly lifecycle No script for "preversion" in "@bertrindade/components", continuing
-36 silly lifecycle No script for "version" in "@bertrindade/components", continuing
-37 silly independent for @bertrindade/components at /home/bernardoabreu/Desktop/Aurum/learna/packages/components
-38 silly independent writing new entry: "## 0.0.3 (2021-12-01)\n\n\n\n## 0.0.2 (2021-11-30)\n\n\n\n## 0.0.1 (2021-11-30)\n\n**Note:** Version bump only for package @bertrindade/components\n\n\n\n"
-39 verbose independent wrote /home/bernardoabreu/Desktop/Aurum/learna/packages/components/CHANGELOG.md
-40 silly lifecycle No script for "version" in "root", continuing
-41 silly gitAdd [
-41 silly gitAdd   'packages/components/package.json',
-41 silly gitAdd   'packages/components/CHANGELOG.md'
-41 silly gitAdd ]
-42 silly gitCommit Publish
-42 silly gitCommit
-42 silly gitCommit  - @bertrindade/components@0.0.3
-43 verbose git [
-43 verbose git   'commit',
-43 verbose git   '-F',
-43 verbose git   '/tmp/2703f7f1-2b42-4cc7-a451-4589ebe9f8c4/lerna-commit.txt'
-43 verbose git ]
-44 silly gitTag @bertrindade/components@0.0.3
-45 verbose git [
-45 verbose git   'tag',
-45 verbose git   '@bertrindade/components@0.0.3',
-45 verbose git   '-m',
-45 verbose git   '@bertrindade/components@0.0.3'
-45 verbose git ]
-46 silly lifecycle No script for "postversion" in "@bertrindade/components", continuing
-47 silly lifecycle No script for "postversion" in "root", continuing
-48 info git Pushing tags...
-49 silly gitPush origin master
-50 info publish Publishing packages to npm...
-51 info Verifying npm credentials
-52 verbose Retrieving npm user profile
-53 http fetch GET 200 https://registry.npmjs.org/-/npm/v1/user 835ms
-54 silly npm profile get received {"tfa":false,"name":"bertrindade","email":"bernardo-trindade@hotmail.com","email_verified":false,"created":"2021-11-30T14:09:22.120Z","updated":"2021-11-30T14:09:22.117Z","cidr_whitelist":null}
-55 silly get npm username received {"username":"bertrindade","tfa":false,"name":"bertrindade","email":"bernardo-trindade@hotmail.com","email_verified":false,"created":"2021-11-30T14:09:22.120Z","updated":"2021-11-30T14:09:22.117Z","cidr_whitelist":null}
-56 silly verifyNpmPackageAccess
-57 http fetch GET 200 https://registry.npmjs.org/-/org/bertrindade/package?format=cli 630ms (cache miss)
-58 warn The logged-in user does not have any previously-published packages, skipping permission checks...
-59 info Checking two-factor auth mode
-60 verbose Retrieving npm user profile
-61 http fetch GET 200 https://registry.npmjs.org/-/npm/v1/user 411ms
-62 silly npm profile get received {"tfa":false,"name":"bertrindade","email":"bernardo-trindade@hotmail.com","email_verified":false,"created":"2021-11-30T14:09:22.120Z","updated":"2021-11-30T14:09:22.117Z","cidr_whitelist":null}
-63 silly 2FA false
-64 warn ENOLICENSE Package @bertrindade/components is missing a license.
-64 warn ENOLICENSE One way to fix this is to add a LICENSE.md file to the root of this repository.
-64 warn ENOLICENSE See https://choosealicense.com for additional guidance.
-65 silly getCurrentSHA
-66 verbose getCurrentSHA 91b8bfc08a7db19bcaa48910c96f9a6b91b3650d
-67 silly lifecycle No script for "prepublish" in "root", continuing
-68 silly lifecycle No script for "prepare" in "root", continuing
-69 silly lifecycle No script for "prepublishOnly" in "root", continuing
-70 silly lifecycle No script for "prepack" in "root", continuing
-71 verbose pack-directory packages/components
-72 silly lifecycle No script for "prepublish" in "@bertrindade/components", continuing
-73 silly lifecycle No script for "prepare" in "@bertrindade/components", continuing
-74 silly lifecycle No script for "prepublishOnly" in "@bertrindade/components", continuing
-75 silly lifecycle No script for "prepack" in "@bertrindade/components", continuing
-76 silly lifecycle No script for "postpack" in "@bertrindade/components", continuing
-77 verbose packed packages/components
-78 silly lifecycle No script for "postpack" in "root", continuing
-79 verbose publish @bertrindade/components
-80 silly FetchError: request to https://npm.pkg.github.com/@bertrindade%2fcomponents failed, reason: getaddrinfo EAI_AGAIN npm.pkg.github.com
-80 silly     at ClientRequest.<anonymous> (/home/bernardoabreu/Desktop/Aurum/learna/node_modules/minipass-fetch/lib/index.js:110:14)
-80 silly     at ClientRequest.emit (events.js:314:20)
-80 silly     at TLSSocket.socketErrorListener (_http_client.js:427:9)
-80 silly     at TLSSocket.emit (events.js:326:22)
-80 silly     at emitErrorNT (internal/streams/destroy.js:92:8)
-80 silly     at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)
-80 silly     at processTicksAndRejections (internal/process/task_queues.js:84:21)
-80 silly  FetchError: request to https://npm.pkg.github.com/@bertrindade%2fcomponents failed, reason: getaddrinfo EAI_AGAIN npm.pkg.github.com
-80 silly     at ClientRequest.<anonymous> (/home/bernardoabreu/Desktop/Aurum/learna/node_modules/minipass-fetch/lib/index.js:110:14)
-80 silly     at ClientRequest.emit (events.js:314:20)
-80 silly     at TLSSocket.socketErrorListener (_http_client.js:427:9)
-80 silly     at TLSSocket.emit (events.js:326:22)
-80 silly     at emitErrorNT (internal/streams/destroy.js:92:8)
-80 silly     at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)
-80 silly     at processTicksAndRejections (internal/process/task_queues.js:84:21) {
-80 silly   code: 'EAI_AGAIN',
-80 silly   errno: 'EAI_AGAIN',
-80 silly   syscall: 'getaddrinfo',
-80 silly   hostname: 'npm.pkg.github.com',
-80 silly   type: 'system'
-80 silly }
-81 error EAI_AGAIN request to https://npm.pkg.github.com/@bertrindade%2fcomponents failed, reason: getaddrinfo EAI_AGAIN npm.pkg.github.com
-82 error FetchError: request to https://npm.pkg.github.com/@bertrindade%2fcomponents failed, reason: getaddrinfo EAI_AGAIN npm.pkg.github.com
-82 error     at ClientRequest.<anonymous> (/home/bernardoabreu/Desktop/Aurum/learna/node_modules/minipass-fetch/lib/index.js:110:14)
-82 error     at ClientRequest.emit (events.js:314:20)
-82 error     at TLSSocket.socketErrorListener (_http_client.js:427:9)
-82 error     at TLSSocket.emit (events.js:326:22)
-82 error     at emitErrorNT (internal/streams/destroy.js:92:8)
-82 error     at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)
+4 error Error: canceled
+4 error     at Interface.<anonymous> (/home/bernardoabreu/Desktop/Aurum/learna/node_modules/read/lib/read.js:66:13)
+4 error     at Interface.emit (events.js:314:20)
+4 error     at Interface._ttyWrite (readline.js:868:16)
+4 error     at ReadStream.onkeypress (readline.js:205:10)
+4 error     at ReadStream.emit (events.js:314:20)
+4 error     at emitKeys (internal/readline/utils.js:335:14)
+4 error     at emitKeys.next (<anonymous>)
+4 error     at ReadStream.onData (readline.js:1137:36)
+4 error     at ReadStream.emit (events.js:314:20)

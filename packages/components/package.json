@@ -1,6 +1,6 @@
 {
   "name": "@bertrindade/components",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "> TODO: description",
   "author": "Bernardo Trindade de Abreu <bernardo-trindade@hotmail.com>",
   "homepage": "https://github.com/berTrindade/lerna#readme",
@@ -33,30 +33,31 @@
   "babel": {
     "presets": [
       "react",
-      ["@babel/preset-env",
-      {
-        "targets": {
-          "esmodules": true,
-          "node" : "current"
+      [
+        "@babel/preset-env",
+        {
+          "targets": {
+            "esmodules": true,
+            "node": "current"
+          }
         }
-      }
       ],
       "@babel/preset-typescript",
       "@babel/preset-react"
     ],
     "plugins": [
-    [
-      "@babel/plugin-proposal-class-properties",
+      [
+        "@babel/plugin-proposal-class-properties",
         {
           "loose": true
         }
-    ],
-    [
-      "@babel/plugin-transform-runtime",
-      {
-        "regenerator": true
-      }
-    ]
+      ],
+      [
+        "@babel/plugin-transform-runtime",
+        {
+          "regenerator": true
+        }
+      ]
     ]
   }
 }

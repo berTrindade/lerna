@@ -23,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/berTrindade/lerna/issues"
   },
-  "gitHead": "8cedcb15397e4160a3ec2332d280071e93984061"
+  "gitHead": "8cedcb15397e4160a3ec2332d280071e93984061",
+  "dependencies": {
+    "react": "^17.0.2"
+  }
 }

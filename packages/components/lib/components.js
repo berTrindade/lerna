@@ -1,7 +1,8 @@
-'use strict';
+import React from 'react';
 
-module.exports = components;
+const Button = () => (
+    <button>MFE1000 Button</button>
+);
 
-function components() {
-    console.log("Hello we're the components package from Github Package Registry!");
-}
+export default Button;
+

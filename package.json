@@ -1,7 +1,22 @@
 {
   "name": "root",
   "private": true,
+  "npmClient": "yarn",
+  "useWorkspaces": true,
   "devDependencies": {
     "lerna": "^4.0.0"
+  },
+  "workspaces": [
+    "packages/*"
+  ],  
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/berTrindade/lerna.git",
+  "author": "Bernardo Trindade de Abreu <bernardo-trindade@hotmail.com>",
+  "license": "MIT",
+  "commands" : {
+    "publish": {
+      "conventionalCommits": true
+    }
   }
 }

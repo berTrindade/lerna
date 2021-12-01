@@ -1,7 +1,13 @@
-'use strict';
+export const formatDate = (date) => {
+    var d = new Date(date),
+        month = '' + (d.getMonth() + 1),
+        day = '' + d.getDate(),
+        year = d.getFullYear();
 
-module.exports = selectors;
+    if (month.length < 2) 
+        month = '0' + month;
+    if (day.length < 2) 
+        day = '0' + day;
 
-function selectors() {
-    console.log("Hello we're the selectors package from Github Package Registry!");
+    return [year, month, day].join('-');
 }

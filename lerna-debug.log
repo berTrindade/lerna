@@ -1,5 +1,5 @@
-47 error Error: Command failed with exit code 128: git tag @bertrindade/components@0.0.3 -m @bertrindade/components@0.0.3
-47 error fatal: tag '@bertrindade/components@0.0.3' already exists
+47 error Error: Command failed with exit code 128: git tag @bertrindade/components@0.1.4 -m @bertrindade/components@0.1.4
+47 error fatal: tag '@bertrindade/components@0.1.4' already exists
 47 error     at makeError (/home/bernardoabreu/Desktop/Aurum/learna/node_modules/execa/lib/error.js:60:11)
 47 error     at handlePromise (/home/bernardoabreu/Desktop/Aurum/learna/node_modules/execa/index.js:118:26)
 47 error     at processTicksAndRejections (internal/process/task_queues.js:97:5)

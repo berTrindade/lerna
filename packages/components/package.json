@@ -1,6 +1,6 @@
 {
   "name": "@bertrindade/components",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "> TODO: description",
   "author": "Bernardo Trindade de Abreu <bernardo-trindade@hotmail.com>",
   "homepage": "https://github.com/berTrindade/lerna#readme",
@@ -23,7 +23,7 @@
   "bugs": {
     "url": "https://github.com/berTrindade/lerna/issues"
   },
-  "gitHead": "8cedcb15397e4160a3ec2332d280071e93984061",
+  "gitHead": "91b8bfc08a7db19bcaa48910c96f9a6b91b3650d",
   "dependencies": {
     "react": "^17.0.2"
   }

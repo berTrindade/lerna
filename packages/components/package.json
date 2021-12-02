@@ -1,11 +1,12 @@
 {
   "name": "@bertrindade/components",
-  "version": "0.1.6",
-  "description": "> TODO: description",
+  "version": "0.0.0",
+  "description": "Shareable components",
   "author": "Bernardo Trindade de Abreu <bernardo-trindade@hotmail.com>",
   "homepage": "https://github.com/berTrindade/lerna#readme",
   "license": "ISC",
-  "main": "lib/components.js",
+  "main": "dist/index.js",
+  "source": "lib/index.js",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -18,17 +19,14 @@
     "url": "git+https://github.com/berTrindade/lerna.git"
   },
   "scripts": {
+    "dev": "microbundle watch --jsx React.createElement lib/*.js",
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "bugs": {
     "url": "https://github.com/berTrindade/lerna/issues"
   },
-  "dependencies": {
-    "@babel/cli": "^7.16.0",
-    "@babel/core": "^7.16.0",
-    "@babel/preset-env": "^7.16.4",
-    "@babel/preset-react": "^7.16.0",
-    "babel-loader": "^8.2.3"
-  },
-  "gitHead": "99e6a4c4782394b1c2106cb56f3bb347e4820736"
+  "devDependencies": {
+    "microbundle": "^0.14.2",
+    "react": "^17.0.2"
+  }
 }

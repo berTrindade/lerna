@@ -1,3 +1,7 @@
 import Button from "./Button";
+import FloatingPage from "./Modal/FloatingPage"
 
-export default { Button };
+export default { 
+  Button,
+  FloatingPage
+};

@@ -1,6 +1,6 @@
 51 warn complete Waiting for 1 child process to exit. CTRL-C to exit immediately.
-52 error Error: Command failed with exit code 128: git tag @bertrindade/components@0.0.5 -m @bertrindade/components@0.0.5
-52 error fatal: tag '@bertrindade/components@0.0.5' already exists
+52 error Error: Command failed with exit code 128: git tag @bertrindade/components@0.1.6 -m @bertrindade/components@0.1.6
+52 error fatal: tag '@bertrindade/components@0.1.6' already exists
 52 error     at makeError (/home/bernardoabreu/Desktop/Aurum/learna/node_modules/execa/lib/error.js:60:11)
 52 error     at handlePromise (/home/bernardoabreu/Desktop/Aurum/learna/node_modules/execa/index.js:118:26)
 52 error     at processTicksAndRejections (internal/process/task_queues.js:97:5)

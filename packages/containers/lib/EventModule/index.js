@@ -1,7 +1,7 @@
 import React from "react";
 // import { Provider } from "react-redux";
 
-import { FloatingPage} from "@components/floatingpage";
+import { FloatingPage} from "@bertrindade/components";
 
 // import { 
 //   eventComponentHelper,

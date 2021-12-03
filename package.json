@@ -3,13 +3,13 @@
   "private": true,
   "npmClient": "yarn",
   "useWorkspaces": true,
+  "version": "independent",
   "devDependencies": {
     "lerna": "^4.0.0"
   },
   "workspaces": [
     "packages/*"
   ],  
-  "version": "1.0.0",
   "main": "index.js",
   "repository": "https://github.com/berTrindade/lerna.git",
   "author": "Bernardo Trindade de Abreu <bernardo-trindade@hotmail.com>",

@@ -1,19 +1,13 @@
 0 silly argv {
-0 silly argv   _: [ 'create' ],
+0 silly argv   _: [ 'add' ],
+0 silly argv   scope: '@bertrindade/containers',
+0 silly argv   globs: [],
 0 silly argv   lernaVersion: '4.0.0',
 0 silly argv   '$0': 'lerna',
-0 silly argv   name: 'ui-components'
+0 silly argv   pkg: '@bertrindade/floatingpage'
 0 silly argv }
 1 notice cli v4.0.0
 2 verbose rootPath /home/bernardoabreu/Desktop/Aurum/learna
 3 info versioning independent
-4 error Error: canceled
-4 error     at Interface.<anonymous> (/home/bernardoabreu/Desktop/Aurum/learna/node_modules/read/lib/read.js:66:13)
-4 error     at Interface.emit (events.js:314:20)
-4 error     at Interface._ttyWrite (readline.js:868:16)
-4 error     at ReadStream.onkeypress (readline.js:205:10)
-4 error     at ReadStream.emit (events.js:314:20)
-4 error     at emitKeys (internal/readline/utils.js:335:14)
-4 error     at emitKeys.next (<anonymous>)
-4 error     at ReadStream.onData (readline.js:1137:36)
-4 error     at ReadStream.emit (events.js:314:20)
+4 error HttpErrorGeneral: 404 Not Found - GET https://npm.pkg.github.com/@bertrindade%2ffloatingpage - npm package "floatingpage" does not exist under owner "bertrindade"
+4 error     at /home/bernardoabreu/Desktop/Aurum/learna/node_modules/npm-registry-fetch/check-response.js:95:15

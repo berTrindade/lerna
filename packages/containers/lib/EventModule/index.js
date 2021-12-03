@@ -10,6 +10,7 @@ import { FloatingPage } from "@bertrindade/components";
 //   taskListHelper
 // } from "@bertrindade/utils/helpers";
 
-export const EventsModule = () => <FloatingPage text="I'm a component from components package" />;
+export const EventsModule = () => 
+<FloatingPage text="I'm a component from components package" />;
 
 export default EventsModule;

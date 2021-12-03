@@ -5,7 +5,7 @@
   "author": "Bernardo Trindade de Abreu <bernardo-trindade@hotmail.com>",
   "homepage": "https://github.com/berTrindade/lerna#readme",
   "license": "ISC",
-  "main": "dist/containers.js",
+  "main": "dist/index.js",
   "source": "lib/index.js",
   "directories": {
     "lib": "lib",

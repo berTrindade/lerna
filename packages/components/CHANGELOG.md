@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.11](https://github.com/berTrindade/lerna/compare/@bertrindade/components@0.2.10...@bertrindade/components@0.2.11) (2021-12-03)
+
+**Note:** Version bump only for package @bertrindade/components
+
+
+
+
+
 ## [0.2.10](https://github.com/berTrindade/lerna/compare/@bertrindade/components@0.2.9...@bertrindade/components@0.2.10) (2021-12-03)
 
 **Note:** Version bump only for package @bertrindade/components

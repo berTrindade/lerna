@@ -10,13 +10,17 @@
   "workspaces": [
     "packages/*"
   ],  
+  "scripts": {
+    "release": "lerna run dev && lerna publish"
+  },
   "main": "index.js",
   "repository": "https://github.com/berTrindade/lerna.git",
   "author": "Bernardo Trindade de Abreu <bernardo-trindade@hotmail.com>",
   "license": "MIT",
   "commands" : {
     "publish": {
-      "conventionalCommits": true
+      "conventionalCommits": true,
+      "yes": true
     }
   }
 }

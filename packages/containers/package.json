@@ -31,5 +31,6 @@
   },
   "dependencies": {
     "@bertrindade/components": "^0.2.9"
-  }
+  },
+  "gitHead": "206a654f14a66f0c2f6cdb3581b3096c1aee4a51"
 }

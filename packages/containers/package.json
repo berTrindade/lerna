@@ -30,6 +30,6 @@
     "react": "^17.0.2"
   },
   "dependencies": {
-    "@bertrindade/components": "^0.2.12"
+    "@bertrindade/components": "0.2.12"
   }
 }

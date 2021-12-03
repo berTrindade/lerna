@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.0.11](https://github.com/berTrindade/lerna/compare/@bertrindade/containers@0.0.10...@bertrindade/containers@0.0.11) (2021-12-03)
+
+**Note:** Version bump only for package @bertrindade/containers
+
+
+
+
+
 ## [0.0.10](https://github.com/berTrindade/lerna/compare/@bertrindade/containers@0.0.9...@bertrindade/containers@0.0.10) (2021-12-03)
 
 **Note:** Version bump only for package @bertrindade/containers

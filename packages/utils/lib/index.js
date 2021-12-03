@@ -1,3 +1,3 @@
-import Button from "./Button";
+import { floatingPageSizes } from "./constants";
 
-export default { Button };
+export default { floatingPageSizes };

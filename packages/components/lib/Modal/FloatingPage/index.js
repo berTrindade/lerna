@@ -1,5 +1,8 @@
 import React from "react";
+import FloatingPagePortal from "./FloatingPagePortal";
 
-const FloatingPage = ({ text }) => <h1>{text}</h1>;
+const FloatingPage = ({ text }) => (
+  <FloatingPagePortal>{text}</FloatingPagePortal>
+)
 
 export default FloatingPage;

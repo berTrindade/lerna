@@ -3,9 +3,11 @@
   "version": "independent",
   "npmClient": "yarn",
   "useWorkspaces": true,
-  "publish": {
-    "ignoreChanges": ["ignored-file", "*.md"],
-    "message": "chore(release): publish",
-    "registry": "https://npm.pkg.github.com/berTrindade"
+  "command": {
+    "publish": {
+        "conventionalCommits": true,
+        "yes": true,
+        "ignoreChanges": ["ignored-file", "*.md"]
+    }
   }
 }

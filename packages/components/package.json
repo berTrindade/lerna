@@ -25,6 +25,13 @@
   "bugs": {
     "url": "https://github.com/berTrindade/lerna/issues"
   },
+  "dependencies": {
+    "@emotion/core": "^10.0.10",
+    "@emotion/styled": "^10.0.10",
+    "emotion-theming": "^10.0.10",
+    "font-awesome": "~4.7.0",
+    "nectar-ui": "aurumsoftware/nectar-ui#v0.0.29"
+  },
   "devDependencies": {
     "microbundle": "^0.14.2",
     "react": "^17.0.2"

@@ -1,6 +1,6 @@
 {
   "name": "@bertrindade/containers",
-  "version": "0.0.14",
+  "version": "0.0.15",
   "description": "> TODO: description",
   "author": "Bernardo Trindade de Abreu <bernardo-trindade@hotmail.com>",
   "homepage": "https://github.com/berTrindade/lerna#readme",
@@ -30,6 +30,6 @@
     "react": "^17.0.2"
   },
   "dependencies": {
-    "@bertrindade/components": "^0.2.9"
+    "@bertrindade/components": "^0.2.10"
   }
 }

@@ -29,7 +29,7 @@
     "microbundle": "^0.14.2",
     "react": "^17.0.2"
   },
-  "dependencies": {
+  "peerDependencies": {
     "@bertrindade/components": "^0.2.16"
   },
   "gitHead": "b007ed94dcd5baf6a71e855066323233bed48215"

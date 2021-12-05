@@ -1,11 +1,11 @@
-# `services`
+# `hooks`
 
 > TODO: description
 
 ## Usage
 
 ```
-const services = require('services');
+const hooks = require('hooks');
 
 // TODO: DEMONSTRATE API
 ```

@@ -1,8 +1,13 @@
 import React from "react";
 import FloatingPagePortal from "./FloatingPagePortal";
+import { Overlay } from "./style";
 
 const FloatingPage = ({ text }) => (
-  <FloatingPagePortal>{text}</FloatingPagePortal>
+  <>
+    <Overlay>
+      <FloatingPagePortal>{text}</FloatingPagePortal>
+    </Overlay>
+  </>
 )
 
 export default FloatingPage;

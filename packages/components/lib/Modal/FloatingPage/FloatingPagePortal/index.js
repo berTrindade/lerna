@@ -1,6 +1,6 @@
 /** @jsx jsx */
 import { jsx } from "@emotion/core";
-import { Text } from "nectar-ui";
+import { Card } from "nectar-ui";
 import { createPortal } from "react-dom";
 import { Overlay, WrapContent } from "../style";
 
@@ -8,10 +8,12 @@ export const FloatingPagePortal = ({ children }) => {
   return createPortal(
   <Overlay>
     <WrapContent>
-      {children}
+      <Card>
+        {children}
+      </Card>
     </WrapContent>
-    </Overlay>,    
-    document.body
+  </Overlay>,    
+  document.body
   );
 }
 

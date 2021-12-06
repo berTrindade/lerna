@@ -1,6 +1,5 @@
 import styled from "@emotion/styled";
 import { css, keyframes } from "@emotion/core";
-import { Icon } from "nectar-ui";
 
 const show = keyframes`
   0% { 
@@ -43,25 +42,4 @@ export const Overlay = styled("div")`
 export const WrapContent = styled("div")`
   width: 680px;
   animation: ${move} 0.3s ease;
-`;
-export const CloseButton = styled(Icon)`
-  ${({ theme, modalSize }) => css`
-    position: absolute;
-    z-index: 2;
-    top: 10px;
-    right: 10px;
-    background: transparent;
-    border: 0;
-    cursor: pointer;
-    padding: 15px;
-    ${theme.breakpoints.sm} {
-      right: inherit;
-      left: 50%;
-      margin-left: calc(680px / 2);
-      transform: translateX(-100%);
-    }
-    &:hover {
-      color: ${theme.colors.primary};
-    }
-  `};
 `;
